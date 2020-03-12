@@ -37,7 +37,7 @@ Data |	Schema Version Control |	Liquibase
 Data |	Search |	Elasticsearch, Solr
 Data |	Visualization |	Alteryx Tableau Desktop, elastic Kibana, Amazon QuickSight, PowerBI
 Data |  Client-Side Caching |  IndexedDB, HTML WEb Storage
-Data |  DB-Connections |   c3p0, OJDBC, JDBC, Spring JDBC
+Data |  DB-Connections |   c3p0, ODBC, JDBC, Spring JDBC
 Data |  Warehouse & Data Mart  | USPTO Enterprise Data Warehouse
 Desktop |   Browser | Current Browser Trends
 Development |	AOP |	AspectJ, Spring AOP
