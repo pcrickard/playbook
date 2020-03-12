@@ -35,6 +35,7 @@ Data |	ETL |	Apache NiFi, Alteryx, Amazon Glue
 Data |	Queue & Streaming | Kafka, Jboss AMQ, Amazon Kinesis Data Streams (Kafka), Amazon Kinesis Firehose (Kafka), Amazon Managed Streaming for Kafka (Amazon MSK)
 Data |	Schema Version Control |	Liquibase
 Data |	Search |	Elasticsearch, Solr
+Data |  Synchronization |   Oracle Data Guard
 Data |	Visualization |	Alteryx Tableau Desktop, elastic Kibana, Amazon QuickSight, PowerBI
 Data |  Client-Side Caching |  IndexedDB, HTML WEb Storage
 Data |  DB-Connections |   c3p0, ODBC, JDBC, Spring JDBC
