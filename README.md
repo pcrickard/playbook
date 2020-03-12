@@ -14,57 +14,69 @@ Built-in Quality | Quality should be part of the process and not a separate acti
 
 ![alt text](https://github.com/USPTO/playbook/blob/master/refarch.png "Reference Architecture")
 
+
 # technology toolbox
 
-Hierarchy |	Technology | Tools
+Layer |	Category | Technology Tools
 --- | --- | ---
-Agile |	Code Repository |	GitHub, GitLabs
-Agile |	Collaboration |	Sharepoint
+Agile |	Code Repository |	GitHub, GitLab
+Agile |	Collaboration |	SharePoint
 Agile |	Communication |	Microsoft Teams
 Agile |	Scrum/Kanban Board |	Rally
-Data |	Caching | Redis, MemcacheD, Amazon ElastiCache, Amazon Cloud Front
-Data |	Cluster |	Hadoop, Spark, Ambari
+Data |	CDN | Amazon Cloud Front
+Data |	Caching | Redis, Memcached, Amazon ElastiCache
+Data |	Cluster |	Hadoop, Spark, Ambari, Apache Zookeeper
 Data |	Content Management |	Alfresco, Patent CMS
+Data |	DB-Document-Oriented |	MongoDB, Amazon DocumentDB (with MongoDB compatibility)
+Data |	DB-Graph-Oriented |	Neo4J, Amazon Neptune, Azure Cosmos DB
+Data |	DB-Relational |	PostgreSQL, Oracle, MySQL, Amazon Aurora (MySQL), Amazon RDS (Oracle)
 Data |	Data Science |	Jupyter Notebook, Python, R Lang, Julia, Apache Zeppelin
-Data |	Document |	MongoDB
-Data |	Caching |	MemcacheD
-Data |	Cluster |	Hadoop, Spark
-Data |	Content Management |	Alfresco
-Data |	Data Science |	Jupyter Notebook, Python
-Data |	ETL |	PenApache NiFi, Alteryx, Amazon Gluetaho
-Data |	Graph |	Neo4J, Amazon Neptune, Azure Cosmos DB
+Data |	ETL |	Apache NiFi, Alteryx, Amazon Glue
 Data |	Queue & Streaming | Kafka, Jboss AMQ, Amazon Kinesis Data Streams (Kafka), Amazon Kinesis Firehose (Kafka), Amazon Managed Streaming for Kafka (Amazon MSK)
-Data |	Relational |	PostgresSQL, Oracle, MySQL, Amazon Aurora (MySQL), Amazon RDS (Oracle)
-Data |	Search |	Elasticsearch, Solr
 Data |	Schema Version Control |	Liquibase
-Data |	Visualization |	Tableau Desktop, elastic Kibana, Amazon QuickSight, PowerBI
-Development |	API |	Swagger, OpenAPI, Spring Coud Contracts
-Development |	Authentication/Authorization |	Okta, Oracle IAM, Amazon AWS IAM, Auzre AD
-Development |	Frameworks |	Spring
-Development |	Backend |	Spring Boot, Node.js
+Data |	Search |	Elasticsearch, Solr
+Data |	Visualization |	Alteryx Tableau Desktop, elastic Kibana, Amazon QuickSight, PowerBI
+Data |  Client-Side Caching |  IndexedDB, HTML WEb Storage
+Data |  DB-Connections |   c3p0, OJDBC, JDBC, Spring JDBC
+Data |  Warehouse & Data Mart  | USPTO Enterprise Data Warehouse
+Desktop |   Browser | Current Browser Trends
+Development |	AOP |	AspectJ, Spring AOP
+Development |	API |	Swagger, OpenAPI, Spring Cloud Contracts, SpringFox
+Development |	Authentication/Authorization |	Okta, Oracle IAM, Amazon AWS IAM, Auzre AD, MyUSPTO, Spring Security
+Development |	Authoring | MS Word, CKEditor
 Development |	Build Packages |	Maven, NPM, Webpack, Bower, ES6 Modules, Gulp, Angular CLI
-Development |	Frontend |	Angular, React, Vue
-Development |	IDE |	Eclipse, Sublime, IntelliJ, Anaconda, R Studio, VS Code
+Development |	Framework-Backend |	Spring Boot, Node.js
+Development |	Framework-Frontend |	Angular, React, Vue
+Development |	IDE |	Eclipse, Sublime Text, IntelliJ IDEA, Anaconda, R Studio, Visual Studio Code
 Development |	Languages |	Java, JavaScript, TypeScript, Google GO, Julia, R, Python
+Development |	Notification |	Email, USPTO Internally Developed REST API for AWS, AWS SQS, AWS SNS
 Development |	ORM | 	Hibernate, Sequelize
+Development |	Optical Character Recognition (OCR) | 	Tessaract
 Development |	Style |	USWDS, Bootstrap, HTML5, CSS3, SASS, USPTO Design Pattern Library (DPL)
+Development |   Code Documentation |    Javadoc
+Development |   PDF Content Management | Apache PDFBox, Antenna House Formatter, iText, PDFTron WebViewer
+Development |   Parse, Serialize, Transform |    Jackson, Java Architecture for XML Binding (JAXB)
+Development |   Services-REST | Jersey, RESTEasy JAX-RS, Spring Boot REST
+Development |   Services-SOAP | Apache Axis2
 Infrastructure |	API Gateway |	Kong, MuleSoft, Apogee, Broadcom Layer 7 Gateway
 Infrastructure |	Cloud |	AWS, Azure, GCP, MicroPact
-Infrastructure |	Container |	Docker, container, CRI-O
+Infrastructure |	Container Compute | Amazon Fargate
+Infrastructure |	Container |	Docker, containerd, CRI-O
 Infrastructure |	IaC |	Terraform, AWS Cloud Development Kit (CDK)
 Infrastructure |	Orchestration |	Kubernetes, Amazon ECS, Amazon ECR, Amazon EKS
-Infrastructure |	Container Compute | Amazon FarGate
 Infrastructure |	Pipeline |	Amazon Jenkins, Jenkins, AWS CodeDeploy
 Infrastructure |	Platform |	OpenShift
 Infrastructure |	Repository Manager |	Nexus
 Infrastructure |	Service Mesh |	Istio
-Operations |	Dashboards |	Grafana, elastic Kibana
-Operations |	Metrics |	Prometheus, Logstash, Splunk, FluentD, AppDynamics Pro, Google Analytics, Sitescope
-Operations |	Monitoring |	Splunk, Logback, Log4J2, SLF4J, AppDynamics Pro, JBoss EAP Logging, SiteScope, FluentD, QRadar, Amazon X-Ray
+Infrastructure |    Workflow |    USPTO Hierarchical Finite State Machine
 Operations |	APM |	AppDynamics
+Operations |	Dashboards |	Grafana, elastic Kibana
+Operations |	Metrics |	Prometheus, Logstash, Splunk, Fluentd, AppDynamics Pro, Google Analytics, HP SiteScope
+Operations |	Monitoring |	Splunk, Logback, Log4j2, SLF4J, AppDynamics Pro, JBoss EAP Logging, HP SiteScope, Fluentd, QRadar, Amazon X-Ray
+Operations |    Scheduling |    Quartz Scheduler
 Testing |	Accessibility/508 |	Pa11y, ANDI, Wave Plug-In for Chrome by Webaim
 Testing |	Integration |	Selenium, Protractor, Cucumber
-Testing |	Penetration |	OWASP ZAP, Fortify, WebInspect
+Testing |	Penetration |	OWASP Zed Attack Proxy (ZAP), Fortify, WebInspect
 Testing |	Performance |	JMeter, Gatling, LoadRunner
 Testing |	Static Code Analysis |	SonarQube
-Testing |	Unit |	JUnit, Jest, Jasmine, Mockito, OpenPojo, jMock, Spring Cloud Contracts
+Testing |	Unit |	JUnit, Jest, Jasmine, Mockito, OpenPojo, jMock, Spring Cloud Contracts, Karma
