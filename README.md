@@ -49,7 +49,7 @@ Development |	Code Documentation |	Javadoc
 Development |	Data Science Tools|	Jupyter Notebook, Zeppelin Notebook, Apache Hive
 Development |	Data Science-Languages |	Julia, R Lang, Python
 Development |	Data Science-ML |	Tensorflow, Google Cloud ML, Apache Spark MLlib, AWS Sagemaker
-Development |	Data Science-NLP |	Standford NLP
+Development |	Data Science-NLP |	Stanford NLP
 Development |	Framework-Backend |	Spring Boot, Node.js
 Development |	Framework-Frontend |	Angular, React, Vue
 Development |	IDE |	Eclipse, Sublime Text, IntelliJ IDEA, Anaconda, R Studio, Visual Studio Code
