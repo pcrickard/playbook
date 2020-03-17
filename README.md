@@ -25,40 +25,43 @@ Agile |	Communication |	Microsoft Teams
 Agile |	Scrum/Kanban Board |	Rally
 Data |	CDN | Amazon Cloud Front
 Data |	Caching | Redis, Memcached, Amazon ElastiCache
-Data |	Cluster |	Hadoop, Spark, Ambari, Apache Zookeeper
+Data |	Client-Side Caching |	IndexedDB, HTML WEb Storage
+Data |	Cluster |	Hadoop-HDFS, Spark, Ambari, Apache Zookeeper
 Data |	Content Management |	Alfresco, Patent CMS
+Data |	DB-Connections |	c3p0, ODBC, JDBC, Spring JDBC
 Data |	DB-Document-Oriented |	MongoDB, Amazon DocumentDB (with MongoDB compatibility)
 Data |	DB-Graph-Oriented |	Neo4J, Amazon Neptune, Azure Cosmos DB
-Data |	DB-Relational |	PostgreSQL, Oracle, MySQL, Amazon Aurora (MySQL), Amazon RDS (Oracle)
-Data |	Data Science |	Jupyter Notebook, Python, R Lang, Julia, Apache Zeppelin
-Data |	ETL |	Apache NiFi, Alteryx, Amazon Glue
-Data |	Queue & Streaming | Kafka, Jboss AMQ, Amazon Kinesis Data Streams (Kafka), Amazon Kinesis Firehose (Kafka), Amazon Managed Streaming for Kafka (Amazon MSK)
+Data |	DB-Relational |	MySQL, Amazon Aurora (MySQL), Percona (MySQL), Oracle, Amazon RDS (Oracle), PostgreSQL
+Data |	ETL/Streaming |	Apache Nifi, Alteryx, Amazon Glue, Apache Kafka, Spark Streaming, Amazon Kinesis Data Streams (Kafka), Amazon Kinesis Firehose (Kafka), Amazon Managed Streaming for Kafka (Amazon MSK)
+Data |	Queue | Apache Kafka, Jboss AMQ
 Data |	Schema Version Control |	Liquibase
 Data |	Search |	Elasticsearch, Solr
-Data |  Synchronization |   Oracle Data Guard
+Data |	Synchronization |	Oracle Data Guard
 Data |	Visualization |	Alteryx Tableau Desktop, elastic Kibana, Amazon QuickSight, PowerBI
-Data |  Client-Side Caching |  IndexedDB, HTML WEb Storage
-Data |  DB-Connections |   c3p0, ODBC, JDBC, Spring JDBC
-Data |  Warehouse & Data Mart  | USPTO Enterprise Data Warehouse
-Desktop |   Browser | Current Browser Trends
+Data | 	 Warehouse & Data Mart | USPTO Enterprise Data Warehouse
+Desktop |	Browser | Current Browser Trends
 Development |	AOP |	AspectJ, Spring AOP
 Development |	API |	Swagger, OpenAPI, Spring Cloud Contracts, SpringFox
 Development |	Authentication/Authorization |	Okta, Oracle IAM, Amazon AWS IAM, Auzre AD, MyUSPTO, Spring Security
 Development |	Authoring | MS Word, CKEditor
 Development |	Build Packages |	Maven, NPM, Webpack, Bower, ES6 Modules, Gulp, Angular CLI
+Development |	Code Documentation |	Javadoc
+Development |	Data Science Tools|	Jupyter Notebook, Zeppelin Notebook, Apache Hive
+Development |	Data Science-Languages |	Julia, R Lang, Python
+Development |	Data Science-ML |	Tensorflow, Google Cloud ML, Apache Spark MLlib, AWS Sagemaker
+Development |	Data Science-NLP |	Standford NLP
 Development |	Framework-Backend |	Spring Boot, Node.js
 Development |	Framework-Frontend |	Angular, React, Vue
 Development |	IDE |	Eclipse, Sublime Text, IntelliJ IDEA, Anaconda, R Studio, Visual Studio Code
-Development |	Languages |	Java, JavaScript, TypeScript, Google GO, Julia, R, Python
+Development |	Languages |	Java, JavaScript, TypeScript, Google GO
 Development |	Notification |	Email, USPTO Internally Developed REST API for AWS, AWS SQS, AWS SNS
 Development |	ORM | 	Hibernate, Sequelize
-Development |	Optical Character Recognition (OCR) | 	Tessaract
+Development |	Optical Character Recognition (OCR) | 	Tessaract, Tika-server
+Development |	PDF Content Management | Apache PDFBox, Antenna House Formatter, iText, PDFTron WebViewer
+Development |	Parse, Serialize, Transform |	Jackson, Java Architecture for XML Binding (JAXB)
+Development |	Services-REST | Jersey, RESTEasy JAX-RS, Spring Boot REST
+Development |	Services-SOAP | Apache Axis2
 Development |	Style |	USWDS, Bootstrap, HTML5, CSS3, SASS, USPTO Design Pattern Library (DPL)
-Development |   Code Documentation |    Javadoc
-Development |   PDF Content Management | Apache PDFBox, Antenna House Formatter, iText, PDFTron WebViewer
-Development |   Parse, Serialize, Transform |    Jackson, Java Architecture for XML Binding (JAXB)
-Development |   Services-REST | Jersey, RESTEasy JAX-RS, Spring Boot REST
-Development |   Services-SOAP | Apache Axis2
 Infrastructure |	API Gateway |	Kong, MuleSoft, Apogee, Broadcom Layer 7 Gateway
 Infrastructure |	Cloud |	AWS, Azure, GCP, MicroPact
 Infrastructure |	Container Compute | Amazon Fargate
@@ -69,12 +72,13 @@ Infrastructure |	Pipeline |	Amazon Jenkins, Jenkins, AWS CodeDeploy
 Infrastructure |	Platform |	OpenShift
 Infrastructure |	Repository Manager |	Nexus
 Infrastructure |	Service Mesh |	Istio
-Infrastructure |    Workflow |    USPTO Hierarchical Finite State Machine
+Infrastructure |	Workflow |	USPTO Hierarchical Finite State Machine
+Infrastructure |	Hadoop HDFS, Ambari, Apache Spark, Yarn, Apache Zookeeper
 Operations |	APM |	AppDynamics
 Operations |	Dashboards |	Grafana, elastic Kibana
 Operations |	Metrics |	Prometheus, Logstash, Splunk, Fluentd, AppDynamics Pro, Google Analytics, HP SiteScope
 Operations |	Monitoring |	Splunk, Logback, Log4j2, SLF4J, AppDynamics Pro, JBoss EAP Logging, HP SiteScope, Fluentd, QRadar, Amazon X-Ray
-Operations |    Scheduling |    Quartz Scheduler
+Operations |	Scheduling |	Quartz Scheduler
 Testing |	Accessibility/508 |	Pa11y, ANDI, Wave Plug-In for Chrome by Webaim
 Testing |	Integration |	Selenium, Protractor, Cucumber
 Testing |	Penetration |	OWASP Zed Attack Proxy (ZAP), Fortify, WebInspect
