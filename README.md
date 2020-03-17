@@ -64,6 +64,7 @@ Development |	Services-SOAP | Apache Axis2
 Development |	Style |	USWDS, Bootstrap, HTML5, CSS3, SASS, USPTO Design Pattern Library (DPL)
 Infrastructure |	API Gateway |	Kong, MuleSoft, Apogee, Broadcom Layer 7 Gateway
 Infrastructure |	Cloud |	AWS, Azure, GCP, MicroPact
+Infrastructure |	Cluster |	Hadoop HDFS, Ambari, Apache Spark, Yarn, Apache Zookeeper
 Infrastructure |	Container Compute | Amazon Fargate
 Infrastructure |	Container |	Docker, containerd, CRI-O
 Infrastructure |	IaC |	Terraform, AWS Cloud Development Kit (CDK)
@@ -73,7 +74,6 @@ Infrastructure |	Platform |	OpenShift
 Infrastructure |	Repository Manager |	Nexus
 Infrastructure |	Service Mesh |	Istio
 Infrastructure |	Workflow |	USPTO Hierarchical Finite State Machine
-Infrastructure |	Hadoop HDFS, Ambari, Apache Spark, Yarn, Apache Zookeeper
 Operations |	APM |	AppDynamics
 Operations |	Dashboards |	Grafana, elastic Kibana
 Operations |	Metrics |	Prometheus, Logstash, Splunk, Fluentd, AppDynamics Pro, Google Analytics, HP SiteScope
