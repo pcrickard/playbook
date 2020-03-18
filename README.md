@@ -29,8 +29,8 @@ Data |	Client-Side Caching |	IndexedDB, HTML WEb Storage
 Data |	Cluster |	Hadoop-HDFS, Spark, Ambari, Apache Zookeeper
 Data |	Content Management |	Alfresco, Patent CMS
 Data |	DB-Connections |	c3p0, ODBC, JDBC, Spring JDBC
-Data |	DB-Document-Oriented |	MongoDB, Amazon DocumentDB (with MongoDB compatibility)
-Data |	DB-Graph-Oriented |	Neo4J, Amazon Neptune, Azure Cosmos DB
+Data |	DB-Document Oriented |	MongoDB, Amazon DocumentDB (with MongoDB compatibility)
+Data |	DB-Graph Oriented |	Neo4J, Amazon Neptune, Azure Cosmos DB
 Data |	DB-Relational |	MySQL, Amazon Aurora (MySQL), Percona (MySQL), Oracle, Amazon RDS (Oracle), PostgreSQL
 Data |	ETL/Streaming |	Apache Nifi, Alteryx, Amazon Glue, Apache Kafka, Spark Streaming, Amazon Kinesis Data Streams (Kafka), Amazon Kinesis Firehose (Kafka), Amazon Managed Streaming for Kafka (Amazon MSK)
 Data |	Queue | Apache Kafka, Jboss AMQ
