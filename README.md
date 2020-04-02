@@ -48,7 +48,7 @@ Development |	Build Packages |	Maven, NPM, Webpack, Bower, ES6 Modules, Gulp, An
 Development |	Code Documentation |	Javadoc
 Development |	Data Science Tools|	Jupyter Notebook, Zeppelin Notebook, Apache Hive
 Development |	Data Science-Languages |	Julia, R Lang, Python
-Development |	Data Science-ML |	Tensorflow, Google Cloud ML, Apache Spark MLlib, AWS Sagemaker
+Development |	Data Science-ML |	Tensorflow, Google Cloud ML, Apache Spark MLlib, AWS SageMaker
 Development |	Data Science-NLP |	Stanford NLP
 Development |	Framework-Backend |	Spring Boot, Node.js
 Development |	Framework-Frontend |	Angular, React, Vue
@@ -64,7 +64,7 @@ Development |	Services-SOAP | Apache Axis2
 Development |	Style |	USWDS, Bootstrap, HTML5, CSS3, SASS, USPTO Design Pattern Library (DPL)
 Infrastructure |	API Gateway |	Kong, MuleSoft, Apogee, Broadcom Layer 7 Gateway
 Infrastructure |	Cloud |	AWS, Azure, GCP, MicroPact
-Infrastructure |	Cluster |	Hadoop HDFS, Ambari, Apache Spark, Yarn, Apache Zookeeper
+Infrastructure |	Cluster |	Hadoop-HDFS, Ambari, Apache Spark, Yarn, Apache Zookeeper
 Infrastructure |	Container Compute | Amazon Fargate
 Infrastructure |	Container |	Docker, containerd, CRI-O
 Infrastructure |	IaC |	Terraform, AWS Cloud Development Kit (CDK)
@@ -80,7 +80,7 @@ Operations |	Metrics |	Prometheus, Logstash, Splunk, Fluentd, AppDynamics Pro, G
 Operations |	Monitoring |	Splunk, Logback, Log4j2, SLF4J, AppDynamics Pro, JBoss EAP Logging, HP SiteScope, Fluentd, QRadar, Amazon X-Ray
 Operations |	Scheduling |	Quartz Scheduler
 Testing |	Accessibility/508 |	Pa11y, ANDI, Wave Plug-In for Chrome by Webaim
-Testing |	Integration |	Selenium, Protractor, Cucumber
+Testing |	Inttegration |	Selenium, Protractor, Cucumber
 Testing |	Penetration |	OWASP Zed Attack Proxy (ZAP), Fortify, WebInspect
 Testing |	Performance |	JMeter, Gatling, LoadRunner
 Testing |	Static Code Analysis |	SonarQube
