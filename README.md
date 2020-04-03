@@ -42,7 +42,7 @@ Data | 	 Warehouse & Data Mart | USPTO Enterprise Data Warehouse
 Desktop |	Browser | Current Browser Trends
 Development |	AOP |	AspectJ, Spring AOP
 Development |	API |	Swagger, OpenAPI, Spring Cloud Contracts, SpringFox
-Development |	Authentication/Authorization |	Okta, Oracle IAM, Amazon AWS IAM, Auzre AD, MyUSPTO, Spring Security
+Development |	Authentication/Authorization |	Okta, Oracle IAM, Amazon AWS IAM, Azure AD, MyUSPTO, Spring Security
 Development |	Authoring | MS Word, CKEditor
 Development |	Build Packages |	Maven, NPM, Webpack, Bower, ES6 Modules, Gulp, Angular CLI
 Development |	Code Documentation |	Javadoc
