@@ -90,6 +90,6 @@ Testing |	Performance |	Gatling, JMeter, LoadRunner
 Testing |	Static Code Analysis |	SonarQube
 Testing |	Unit |	Jasmine, Jest, jMock, JUnit, Karma, Mockito, OpenPojo, Spring Cloud Contracts
 
-# Tool stats
+# Toolbox Statistics
 
-![alt text](https://github.com/USPTO/playbook/blob/master/toolstats.png "Tool Statistics")
+![alt text](https://github.com/USPTO/playbook/blob/master/toolstats.png "Toolbox Statistics")
