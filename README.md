@@ -89,3 +89,7 @@ Testing |	Penetration |	Fortify, OWASP Zed Attack Proxy (ZAP), WebInspect
 Testing |	Performance |	Gatling, JMeter, LoadRunner
 Testing |	Static Code Analysis |	SonarQube
 Testing |	Unit |	Jasmine, Jest, jMock, JUnit, Karma, Mockito, OpenPojo, Spring Cloud Contracts
+
+# Tool stats
+
+![alt text](https://github.com/USPTO/playbook/blob/master/toolstats.png "Tool Statistics")
