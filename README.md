@@ -72,7 +72,7 @@ Infrastructure |	Container |	containerd, CRI-O, Docker
 Infrastructure |	Container Compute |	Amazon Fargate
 Infrastructure |	IaC |	AWS Cloud Development Kit (CDK), Terraform
 Infrastructure |	Orchestration |	Amazon ECR, Amazon ECS, Amazon EKS, Kubernetes
-Infrastructure |	Pipeline |	Amazon Jenkins, AWS CodeDeploy, Jenkins
+Infrastructure |	Pipeline |	AWS CodeDeploy, Jenkins
 Infrastructure |	Platform |	OpenShift
 Infrastructure |	Repository Manager |	Nexus
 Infrastructure |	Service Mesh |	Istio
