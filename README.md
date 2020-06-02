@@ -65,7 +65,7 @@ Development |	PDF Content Management |	Antenna House Formatter, Apache PDFBox, i
 Development |	Services-REST |	Jersey, RESTEasy JAX-RS, Spring Boot REST
 Development |	Services-SOAP |	Apache Axis2
 Development |	Style |	Bootstrap, CSS3, HTML5, SASS, USPTO Design Pattern Library (DPL), USWDS
-Infrastructure |	API Gateway |	Apigee, Broadcom Layer 7 Gateway, Kong, MuleSoft
+Infrastructure |	API Gateway |	Apigee, Broadcom Layer 7 Gateway, Kong, MuleSoft Anypoint Platform
 Infrastructure |	Cloud |	AWS, Azure, GCP, MicroPact
 Infrastructure |	Cluster |	Apache Ambari (Server & Agent), Apache Spark, Apache Zookeeper, Hadoop-HDFS, Hadoop-Yarn, Hive Server Interactive (HSI), Horton SmartSense
 Infrastructure |	Container |	containerd, CRI-O, Docker
