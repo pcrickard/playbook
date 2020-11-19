@@ -31,7 +31,7 @@
 |Data |	DB-Connections |	c3p0, JDBC, ODBC, Spring JDBC|
 |Data |	DB-Document Oriented |	Amazon DocumentDB (with MongoDB compatibility), MongoDB|
 |Data |	DB-Graph Oriented |	Amazon Neptune, Azure Cosmos DB, Neo4J|
-|Data |	DB-Relational |	Amazon Aurora (MySQL), Amazon RDS (Oracle), MySQL, Oracle, Percona (MySQL), PostgreSQL|
+|Data |	DB-Relational |	Amazon Aurora (MySQL), Amazon RDS (Oracle), MySQL, Oracle, Percona (MySQL), PostgreSQL!
 |Data |	ETL/Streaming |	Alteryx, Amazon Glue, Amazon Kinesis Data Streams (Kafka), Amazon Kinesis Firehose (Kafka), Amazon Managed Streaming for Kafka (Amazon MSK), Apache Kafka, Apache Nifi, Spark Streaming|
 |Data |	Object Storage |	Amazon AWS S3|
 |Data |	Queue |	Apache Kafka, Jboss AMQ|
@@ -60,20 +60,22 @@
 |Development |	Notification |	AWS SNS, AWS SQS, Email, USPTO Internally Developed REST API for AWS|
 |Development |	Optical Character Recognition (OCR) |	Tessaract, Tika-server|
 |Development |	ORM |	Hibernate, Sequelize|
-|Development |	Parse, Serialize, Transform |	Jackson, Java Architecture for XML Binding (JAXB)|
+|Development |	Parse, Serialize, Transform |	Jackson, Java Architecture for XML Binding (JAXB), Apache FOP|
 |Development |	PDF Content Management |	Antenna House Formatter, Apache PDFBox, iText, PDFTron WebViewer|
 |Development |	Services-REST |	Jersey, RESTEasy JAX-RS, Spring Boot REST|
 |Development |	Services-SOAP |	Apache Axis2|
 |Development |	Style |	Bootstrap, CSS3, HTML5, SASS, USPTO Design Pattern Library (DPL), USWDS|
 |Infrastructure |	API Gateway |	Apigee, Broadcom Layer 7 Gateway, Kong, MuleSoft Anypoint Platform|
+|Infrastructure |	Asset Management |	Belarc BelMonitor | Belarc BelManageServer
 |Infrastructure |	Cloud |	AWS, Azure, GCP, MicroPact|
 |Infrastructure |	Cluster |	Apache Ambari (Server & Agent), Apache Spark, Apache Zookeeper, Hadoop-HDFS, Hadoop-Yarn, Hive Server Interactive (HSI), Horton SmartSense|
 |Infrastructure |	Container |	containerd, CRI-O, Docker|
 |Infrastructure |	Container Compute |	Amazon Fargate|
 |Infrastructure |	IaC |	AWS Cloud Development Kit (CDK), Terraform|
 |Infrastructure |	Orchestration |	Amazon ECR, Amazon ECS, Amazon EKS, Kubernetes|
-|Infrastructure |	Pipeline |	AWS CodeDeploy, Jenkins|
+|Infrastructure |	Pipeline |	AWS CodeBuild, AWS CodeCommit, AWS CodeDeploy, Jenkins|
 |Infrastructure |	Platform |	OpenShift|
+|Infrastructure |	Remoting |	Cisco WebEx, Cisco TelePresence | Zoom for Government |
 |Infrastructure |	Repository Manager |	Nexus|
 |Infrastructure |	Service Mesh |	Istio|
 |Infrastructure |	Shared Services |	Apache Ambari Infra|
