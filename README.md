@@ -19,34 +19,35 @@
 
 |Layer |	Category | Technology Tools|
 |--- | --- | ---|
-|Agile |	Code Repository |	GitHub, GitLab|
+|Agile |	Code Repository |	GitLab|
 |Agile |	Collaboration |	SharePoint|
 |Agile |	Communication |	Microsoft Teams|
 |Agile |	Scrum/Kanban Board |	Rally|
-|Data |	Caching |	Amazon ElastiCache, Memcached, Redis|
+|Data |	Caching |	Amazon ElastiCache, Memcached, Redis, Tableau Server|
 |Data |	CDN |	Amazon Cloud Front|
 |Data |	Client-Side Caching |	HTML WEb Storage, IndexedDB|
 |Data |	Cluster |	Ambari, Apache Zookeeper, Hadoop-HDFS, Spark|
-|Data |	Content Management |	Alfresco, Patent CMS|
+|Data |	Content Management |	Alfresco, Patent CMS, Xibo Content Management System|
 |Data |	DB-Connections |	c3p0, JDBC, ODBC, Spring JDBC|
 |Data |	DB-Document Oriented |	Amazon DocumentDB (with MongoDB compatibility), MongoDB|
-|Data |	DB-Graph Oriented |	Amazon Neptune, Azure Cosmos DB, Neo4J|
+|Data |	DB-Graph Oriented |	Amazon Neptune, Neo4J|
 |Data |	DB-Relational |	Amazon Aurora (MySQL), Amazon RDS (Oracle), MySQL, Oracle, Percona (MySQL), PostgreSQL!
-|Data |	ETL/Streaming |	Alteryx, Amazon Glue, Amazon Kinesis Data Streams (Kafka), Amazon Kinesis Firehose (Kafka), Amazon Managed Streaming for Kafka (Amazon MSK), Apache Kafka, Apache Nifi, Spark Streaming|
+|Data |	ETL/Streaming |	Amazon Glue, Amazon Kinesis Data Streams (Kafka), Amazon Kinesis Firehose (Kafka), Amazon Managed Streaming for Kafka (Amazon MSK), Apache Kafka, Apache Nifi, Spark Streaming|
+|Data |	Framework-Backend |	Spring Boot, Spring Batch|
 |Data |	Object Storage |	Amazon AWS S3|
-|Data |	Queue |	Apache Kafka, Jboss AMQ|
+|Data |	Queue |	Apache Kafka, JBoss AMQ|
 |Data |	Schema Version Control |	Liquibase|
 |Data |	Search |	Apache Solr, Elasticsearch|
 |Data |	Security |	Apache Knox, Apache Ranger|
 |Data |	Synchronization |	Oracle Data Guard|
-|Data |	Visualization |	Alteryx Tableau Desktop, Amazon QuickSight, elastic Kibana, PowerBI|
+|Data |	Visualization |	Alteryx Tableau Desktop, Amazon QuickSight, Kibana, PowerBI|
 |Data |	Warehouse & Data Mart |	USPTO Enterprise Data Warehouse|
 |Desktop |	Browser |	Current Browser Trends|
 |Development |	AOP |	AspectJ, Spring AOP|
 |Development |	API |	OpenAPI, Spring Cloud Contracts, SpringFox, Swagger|
 |Development |	Authentication/Authorization |	Amazon AWS IAM, Azure AD, MyUSPTO, Okta, Oracle IAM, Spring Security|
 |Development |	Authoring |	CKEditor, MS Word|
-|Development |	Automation |	Red Hat Ansible|
+|Development |	Automation |	Red Hat Ansible, Foreman|
 |Development |	Build Packages |	Angular CLI, Apache Maven, Bower, ES6 Modules, Gulp, NPM, Webpack|
 |Development |	Code Documentation |	Javadoc|
 |Development |	Data Science Tools |	Apache Hive, Apache Pig, Apache Tez, Jupyter Notebook, Zeppelin Notebook|
@@ -55,12 +56,12 @@
 |Development |	Data Science-NLP |	Stanford NLP|
 |Development |	Framework-Backend |	Node.js, Spring Batch, Spring Boot|
 |Development |	Framework-Frontend |	Angular, React, Vue|
-|Development |	IDE |	Anaconda, Eclipse, IntelliJ IDEA, R Studio, Sublime Text, Visual Studio Code|
+|Development |	IDE |	Anaconda, Eclipse, IntelliJ IDEA, R Studio, Visual Studio Code|
 |Development |	Languages |	Java, JavaScript, TypeScript|
 |Development |	Notification |	AWS SNS, AWS SQS, Email, USPTO Internally Developed REST API for AWS|
 |Development |	Optical Character Recognition (OCR) |	Tessaract, Tika-server|
 |Development |	ORM |	Hibernate, Sequelize|
-|Development |	Parse, Serialize, Transform |	Jackson, Java Architecture for XML Binding (JAXB), Apache FOP|
+|Development |	Parse, Serialize, Transform |	Jackson, Java Architecture for XML Binding (JAXB)|
 |Development |	PDF Content Management |	Antenna House Formatter, Apache PDFBox, iText, PDFTron WebViewer|
 |Development |	Services-REST |	Jersey, RESTEasy JAX-RS, Spring Boot REST|
 |Development |	Services-SOAP |	Apache Axis2|
@@ -81,7 +82,7 @@
 |Infrastructure |	Shared Services |	Apache Ambari Infra|
 |Infrastructure |	Workflow |	USPTO Hierarchical Finite State Machine|
 |Operations |	APM |	AppDynamics|
-|Operations |	Dashboards |	elastic Kibana, Grafana|
+|Operations |	Dashboards |	Kibana, Grafana|
 |Operations |	Metrics |	Apache Ambari Metrics, AppDynamics Pro, Fluentd, Google Analytics, HP SiteScope, Logstash, Prometheus, Splunk|
 |Operations |	Monitoring |	Amazon X-Ray, Apache Log4j 2, AppDynamics Pro, Fluentd, HP SiteScope, JBoss EAP Logging, Logback, QRadar, SLF4J, Splunk|
 |Operations |	Scheduling |	Quartz Scheduler|
